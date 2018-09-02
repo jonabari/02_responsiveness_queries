@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color:#404040;
+}
+
+h1 {
+    margin:5% 0;
+    font-size:2em;
+    font-family: 'Josefin Slab', serif;
+    font-weight:bolder;
+    line-height:1;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+h3 {
+    font-size:1.3em;
+    margin:8% 0 0 0;
+    text-align:center;
+    font-weight:bolder;
+    color:darkgrey
+}
+
+p {
+    margin:0 0 5% 0;
+    text-align:justify;
+    line-height:1.9;
+}
+
+img {
+    margin:3% 0;
+}
+
+.notation {
+    margin:0 5%; 
+    font-style:italic; 
+    font-size:1em;
+    color:darkgrey;
+}
+
+@media only screen and (max-width: 540px) {
+    h1 {
+        font-size:1.5em;    
+    }
+
+    h3 {
+        font-size:1em;
+    }
+}
